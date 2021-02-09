@@ -1,0 +1,59 @@
+/******************************TAG SELECTORS***************************/
+
+
+body
+{
+  background-color: #fdf1d6;
+}
+
+p
+{
+  color: #c39e5c;
+
+  font-size: 20px;
+  /*margin: 20px 35%*/
+  margin: auto 15.2%;
+
+}
+hr
+{
+  border-top: 6px dotted #91091e;
+  width: 69%;
+}
+img
+{
+  margin: 10% 15%;
+}
+/******************************CLASS SELECTORS***************************/
+.bacon
+{
+background-color: #fdf1d6;
+border-color: #fdf1d6;
+}
+.bacon:hover
+{
+  border-style: solid;
+  border-color: #91091e;
+  transition: border-color 1s;
+}
+
+.hidden
+{
+
+  opacity: 0%;
+
+}
+
+.circular
+{
+  border-radius: 100%
+}
+/******************************ID SELECTORS***************************/
+
+#heading
+{
+  color: #da723c;
+  font-family: fantasy;
+  font-weight: bold;
+  margin: 20px 40%;
+}
